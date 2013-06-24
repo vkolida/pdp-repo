@@ -12,6 +12,8 @@ public class Employee extends BaseEntity {
 	
 	private String lastName;
 	
+	private String username;
+	
 	private List<Book> books;
 
 	public Long getEmployeeID() {
