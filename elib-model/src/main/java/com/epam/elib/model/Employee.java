@@ -48,4 +48,8 @@ public class Employee extends BaseEntity {
 		this.books = books;
 	}
 	
+	public String getUsername() {
+		return this.username;
+	}
+	
 }
