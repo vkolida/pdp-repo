@@ -50,4 +50,8 @@ public class Book extends BaseEntity {
 		return this.employee;
 	}
 	
+	public void setEmployee(Employee employee) {
+		this.employee = employee;
+	}
+	
 }
